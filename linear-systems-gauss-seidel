@@ -1,0 +1,39 @@
+📊 Implementasi Metode Jacobi pada Sistem Persamaan Linear
+Deskripsi
+Project ini membahas implementasi Metode Jacobi untuk menyelesaikan Sistem Persamaan Linear (SPL) dengan tiga variabel secara iteratif menggunakan Microsoft Excel.
+Metode Jacobi digunakan untuk memperoleh solusi pendekatan melalui proses iterasi hingga nilai variabel mencapai konvergensi sesuai batas error yang ditentukan.
+
+Parameter
+- Maksimum iterasi: 25
+- Error relatif: 1%
+- Nilai awal:
+X_1=2, X_2=3, X_3=4
+
+Hasil Iterasi
+
+| Iterasi | X1 | X2 | X3 | Error X1 | Error X2 | Error X3 | Error Relatif |
+|---|---|---|---|---|---|---|---|
+| 0 | 2.00000 | 3.00000 | 4.00000 | - | - | - | - |
+| 1 | 1.66667 | 2.88889 | 4.34259 | 20.00% | 3.85% | 7.89% | 20.00% |
+| 2 | 1.70525 | 2.82510 | 4.35755 | 2.26% | 2.26% | 0.34% | 2.26% |
+| 3 | 1.69711 | 2.82887 | 4.35521 | 0.48% | 0.13% | 0.05% | 0.48% |
+| 4 | 1.69735 | 2.82897 | 4.35526 | 0.01% | 0.00% | 0.00% | 0.01% |
+| 5 | 1.69737 | 2.82895 | 4.35526 | 0.00% | 0.00% | 0.00% | 0.00% |
+
+Tujuan Project
+- Memahami metode Jacobi
+- Menyelesaikan Sistem Persamaan Linear (SPL)
+- Menganalisis konvergensi iterasi
+- Implementasi metode numerik menggunakan Excel
+
+Insight
+Metode Jacobi mampu menyelesaikan SPL secara bertahap dengan iterasi hingga mencapai solusi stabil, tergantung pada nilai awal dan struktur persamaan.
+
+Tools
+- Microsoft Excel
+- Metode Numerik
+
+Penutup
+Project ini merupakan latihan implementasi metode numerik untuk memahami proses iteratif dalam penyelesaian Sistem Persamaan Linear menggunakan Metode Jacobi.
+
+#MetodeNumerik #JacobiMethod #Excel #NumericalMethod
